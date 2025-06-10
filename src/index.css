@@ -25,10 +25,19 @@ body {
 
 #page1-in {
   position: relative;
-  perspective: 1000px;
+  perspective: 900px;
 }
 
 #tiltDiv {
   width: fit-content;
   /* transform: rotateY(20deg); */
+}
+
+#section2 {
+  position: relative;
+  perspective: 2000px;
+}
+
+#rotateText {
+  /* transform-origin: 100% 70%; */
 }

@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import Page1Bottom from "../components/Page1Bottom";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import TiltText from "../components/TiltText";
 
 const Page1 = () => {
   const tiltRef = useRef(null);
@@ -57,17 +58,7 @@ const Page1 = () => {
           className="h-15 "
           src="https://static.wixstatic.com/media/f1c650_e7181873180d410ba6848efd4e8cc5ef~mv2.png/v1/fill/w_133,h_106,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20WHITE_edited.png"
         />
-        <div id="tiltDiv" ref={tiltRef} className="mt-35">
-          <h1 className="text-white text-[4.7vw] leading-[4vw] font-bold uppercase font-[anzo1]">
-            I am <span className="text-black">DARK MODE</span> ™
-          </h1>
-          <h1 className="text-white text-[8.5vw] leading-[7vw] font-bold font-[anzo1]">
-            DESIGNER
-          </h1>
-          <h1 className="text-white text-[4.7vw] leading-[4vw] font-bold uppercase font-[anzo1]">
-            To Hire
-          </h1>
-        </div>
+        <TiltText abc={tiltRef} />
         <Page1Bottom />
       </div>
     </div>

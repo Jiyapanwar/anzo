@@ -11,6 +11,8 @@
 
 # gsap : for animations (gsap alone does not work very well with react), so use a dependency of gsap - gsap/react
 
+relative makes the element a positioning context.
+absolute positions an element based on its nearest ancestor that has relative (or absolute, fixed, or sticky) positioning.
 🧩 Why use absolute?
 
 - Pin something to the bottom/top of a section: absolute bottom-0
@@ -60,3 +62,11 @@ transform property allows you to visually manipulate elements (like rotate, scal
 - filter (Applies visual effects like blur, brightness, contrast, etc.)
 
 # hume chaiye ki this designer vala div centr point se rotate ho, not the center point of page but the center point of that div itself
+
+ek video ko we can brake in frames, and render these frames one be one with the help of canvas
+
+# canvas is like a plane paper to draw
+
+# main stack - jisme main function apna chal rha hota hai seedhe seedhe on the main track
+
+# side track - side mai kuch cheeje jaise animation or videos chal rahi hoti hai
